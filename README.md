@@ -1,1 +1,1 @@
-# sqkl
+# OTTO – Multi-Objective Recommender System
