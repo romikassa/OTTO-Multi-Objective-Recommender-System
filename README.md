@@ -17,7 +17,7 @@ Each row is one submission. Scores are the Kaggle **private** scores.
 | 2 | Co-visitation matrix (last 20 events per session, recency-weighted), filled with popular items | 0.10191 |
 | 3 | Co-visitation + the last 5 items of the session kept first (`SEEN_N=5`) | 0.45216 |
 | 4 | Co-visitation + last 10 session items (`SEEN_N=10`) + word2vec neighbors to fill remaining slots (dim 64) | 0.50532 |
-| 5 | Final notebook: 1-day time window, type weights, buy-only matrix, separate lists for clicks vs carts/orders, word2vec fill | _to be filled with the final score_ |
+| 5 | Final notebook: 1-day time window, type weights, buy-only matrix, separate lists for clicks vs carts/orders, word2vec fill | 0.53285 |
 
 Keeping the items already seen in the session at the top of the list was the biggest single gain (0.10 → 0.45), which shows that users often come back to items they already looked at.
 
