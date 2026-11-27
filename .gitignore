@@ -3,3 +3,5 @@ submission*.csv
 *.jsonl
 *.parquet
 input/
+*.pkl
+*.pickle
